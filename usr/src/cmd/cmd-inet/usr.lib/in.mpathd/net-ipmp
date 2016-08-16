@@ -17,6 +17,13 @@
 
 . /lib/svc/share/smf_include.sh
 
+#
+# For the time being, we're going to manually make sure that the
+# overlay driver is loaded. We probably shouldn't do that in the long
+# run, but it helps for bootstrapping
+#
+rem_drv overlay 2>/dev/null
+add_drv overlay 2>/dev/null
 if [ -z "$SMF_FMRI" ]; then
         echo "this script can only be invoked by smf(7)"
         exit $SMF_EXIT_ERR_NOSMF
