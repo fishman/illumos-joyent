@@ -855,6 +855,7 @@ f kernel/drv/e1000g.conf 0644 root sys
 f kernel/drv/ehci.conf 0644 root sys
 f kernel/drv/eibnx.conf 0644 root sys
 f kernel/drv/ena.conf 0644 root sys
+f kernel/drv/emlxs.conf 0644 root sys
 f kernel/drv/fasttrap.conf 0644 root sys
 f kernel/drv/fbt.conf 0644 root sys
 f kernel/drv/fcp.conf 0644 root sys
@@ -1162,6 +1163,9 @@ f kernel/misc/amd64/usbgem 0755 root sys
 f kernel/misc/amd64/usbs49_fw 0755 root sys
 f kernel/misc/amd64/usbser 0755 root sys
 f kernel/misc/amd64/virtio 0755 root sys
+d kernel/misc/emlxs 0755 root sys
+d kernel/misc/emlxs/amd64 0755 root sysA
+f kernel/misc/emlxs/amd64/emlxs_fw 0755 root sys
 d kernel/misc/kgss 0755 root sys
 d kernel/misc/kgss/amd64 0755 root sys
 f kernel/misc/kgss/amd64/kmech_krb5 0755 root sys
