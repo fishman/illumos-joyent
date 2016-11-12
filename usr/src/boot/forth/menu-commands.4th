@@ -358,7 +358,7 @@ create chaincmd 1030 chars allot
 
 	cr
 	." To get back to the menu, type `menu' and press ENTER" cr
-	." or type `boot' and press ENTER to start illumos." cr
+	." or type `boot' and press ENTER to start Danube Cloud." cr
 	cr
 
 	FALSE \ exit the menu
@@ -603,7 +603,7 @@ create chaincmd 1030 chars allot
 : be_draw_screen
 	clear		\ Clear the screen (in screen.4th)
 	print_version	\ print version string (bottom-right; see version.4th)
-	draw-beastie	\ Draw FreeBSD logo at right (in beastie.4th)
+	\ draw-beastie	\ Draw FreeBSD logo at right (in beastie.4th)
 	draw-brand	\ Draw brand.4th logo at top (in brand.4th)
 	menu-init	\ Initialize menu and draw bounding box (in menu.4th)
 ;
