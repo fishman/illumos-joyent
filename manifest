@@ -147,7 +147,6 @@ f boot/solaris/bin/create_diskmap 0555 root bin
 f boot/solaris/bin/create_ramdisk 0555 root bin
 f boot/solaris/bin/symdef 0555 root bin
 f boot/solaris/bin/extract_boot_filelist 0555 root bin
-f boot/solaris/bin/mbr 0555 root bin
 f boot/solaris/bin/symdef 0555 root bin
 f boot/solaris/bin/update_grub 0555 root bin
 d boot/solaris/devicedb 0755 root sys
