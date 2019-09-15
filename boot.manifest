@@ -174,3 +174,6 @@ f boot/pmbr 0444 root sys
 f boot/cdboot 0444 root sys
 f boot/loader 0444 root sys
 f boot/splashimage.xpm 0644 root sys
+f boot/danubecloud.png 0444 root sys
+f boot/danubecloud-banner.png 0444 root sys
+f boot/danubecloud-logo.png 0444 root sys
