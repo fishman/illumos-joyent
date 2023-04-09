@@ -1,5 +1,4 @@
 \ Copyright (c) 2008-2011 Devin Teske <dteske@FreeBSD.org>
-\ Copyright (c) 2016 Erigones, s. r. o.
 \ All rights reserved.
 \ 
 \ Redistribution and use in source and binary forms, with or without
@@ -44,7 +43,7 @@ marker task-shortcuts.4th
 : menu ( -- )
 	clear           \ Clear the screen (in screen.4th)
 	print_version   \ print version string (bottom-right; see version.4th)
-	\ draw-beastie    \ Draw FreeBSD logo at right (in beastie.4th)
+	draw-beastie    \ Draw FreeBSD logo at right (in beastie.4th)
 	draw-brand      \ Draw FIS logo at top (in brand.4th)
 	menu-init       \ Initialize menu and draw bounding box (in menu.4th)
 	menu-display    \ Launch interactive menu (in menu.4th)
